@@ -1,0 +1,10 @@
+[package]
+name = "protocol-buffers-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+false = "0.0.0"
+prost = { version = "0.12.1", features = ["prost-derive"] }
